@@ -1,0 +1,138 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "ed2997cc0107c7c038b0",
+  "publicPath": "/static/",
+  "outputPath": "/Users/Aivars1/Desktop/Local Sites/Rounda-node/build/static",
+  "assetsByChunkName": {
+    "rounda": "rounda.module.js"
+  },
+  "assets": [
+    {
+      "name": "fonts/gangstergrotesk-light.ttf",
+      "size": 56340,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/gangstergrotesk-regular.ttf",
+      "size": 55892,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/apple-touch-icon.png",
+      "size": 3161,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/closeIcon.png",
+      "size": 1296,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/cursor.png",
+      "size": 1347,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/favicon-16x16.png",
+      "size": 839,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/favicon-32x32.png",
+      "size": 1298,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logo.png",
+      "size": 28172,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/menuIcon.png",
+      "size": 281,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/safari-pinned-tab.svg",
+      "size": 4154,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "rounda.module.js",
+      "size": 12006646,
+      "chunks": [
+        "rounda"
+      ],
+      "chunkNames": [
+        "rounda"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "rounda": {
+      "chunks": [
+        "rounda"
+      ],
+      "assets": [
+        "rounda.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "rounda": {
+      "chunks": [
+        "rounda"
+      ],
+      "assets": [
+        "rounda.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
