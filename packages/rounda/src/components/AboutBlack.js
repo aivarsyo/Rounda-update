@@ -1,10 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { connect, css, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-import Script from "@frontity/components/script";
-import Iframe from "@frontity/components/iframe";
 
 const About = ({ state }) => {
   //console.log(state);
@@ -62,14 +60,6 @@ const About = ({ state }) => {
               `}>
   <source src={content.animation_3} type="video/mp4"/>
 </video>
-            {/* <Iframe
-              src={`https://player.vimeo.com/video/${content.animation_3}?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1&background=1`}
-              css={css`
-                width: 100%;
-                height: 100%;
-                position: relative;
-              `}
-            ></Iframe> */}
           </div>
           <p>{content.paragraph_2}</p>
         </div>

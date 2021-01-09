@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { connect, styled, css } from "frontity";
 import Footer from "./footer";
-import Link from "./link";
 import gsap from "gsap";
 import AnimationSection from "./animationSection";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

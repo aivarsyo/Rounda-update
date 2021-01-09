@@ -1,11 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { connect, css, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-import Script from "@frontity/components/script";
-import Iframe from "@frontity/components/iframe";
-import Footer from "./footer";
 
 const About = ({ state }) => {
   //console.log(state);

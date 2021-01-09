@@ -1,10 +1,9 @@
 import React from "react";
-import { Global, css, connect, styled, Head } from "frontity";
+import { Global, css, connect, Head } from "frontity";
 import Switch from "@frontity/components/switch";
 import Header from "./header";
 import Home from "./home";
 import Works from "./works";
-import Empty from "./empty";
 import About from "./about";
 import Services from "./services";
 import SingleWork from "./singleWork";

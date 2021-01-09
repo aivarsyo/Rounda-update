@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { connect, css, styled, Head } from "frontity";
+import React from "react";
+import { connect, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -7,7 +7,6 @@ import AboutTop from "./AboutTop";
 import AboutBlack from "./AboutBlack";
 import AboutPeople from "./AboutPeople";
 import Footer from "./footer";
-import Script from "@frontity/components/script";
 
 const About = ({ state }) => {
   //console.log(state);
@@ -20,9 +19,6 @@ const About = ({ state }) => {
 
   return (
     <>
-    <Head>
-    <script src="https://player.vimeo.com/api/player.js" />
-    </Head>
       <Container className="main">
         <AboutTop />
         <AboutBlack />

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { connect, styled, css } from "frontity";
+import { connect, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);

@@ -1,5 +1,5 @@
 import React from "react";
-import { Global, css, connect } from "frontity";
+import { css, connect } from "frontity";
 import { useLottie } from "lottie-react";
 import animation from "../lottie-animations/loading.json";
 

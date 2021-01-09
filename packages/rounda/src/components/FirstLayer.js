@@ -55,21 +55,7 @@ const FirstLayer = ({ state }) => {
               `}>
   <source src={content.introduction_video} type="video/mp4"/>
 </video>
-          {/* <Iframe
-            src={`https://player.vimeo.com/video/${content.introduction_video}?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1&background=1`}
-            css={css`
-              width: 100vw;
-              height: 56.25vw;
-              min-height: 100vh;
-              min-width: 177.77vh; 
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-            `}
-          /> */}
         </div>
-        {/* <Script src="https://player.vimeo.com/api/player.js" /> */}
       </Container>
     </>
   );

@@ -3,8 +3,6 @@ import { connect, css, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-import Script from "@frontity/components/script";
-import Iframe from "@frontity/components/iframe";
 
 const About = ({ state }) => {
   //console.log(state);
@@ -59,7 +57,7 @@ const About = ({ state }) => {
           </p>
           <div
             css={css`
-              /* pointer-events: none; */
+              pointer-events: none;
               overflow: hidden;
               margin-right: 5vw;
               width: 100vw;
@@ -81,14 +79,6 @@ const About = ({ state }) => {
               `}>
   <source src={content.animation_1} type="video/mp4"/>
 </video>
-            {/* <Iframe
-              src={`https://player.vimeo.com/video/${content.animation_1}?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1&background=1`}
-              css={css`
-                width: 100%;
-                height: 100%;
-                position: relative;
-              `}
-            ></Iframe> */}
           </div>
         </div>
 
@@ -139,14 +129,6 @@ const About = ({ state }) => {
               `}>
   <source src={content.animation_2} type="video/mp4"/>
 </video>
-            {/* <Iframe
-              src={`https://player.vimeo.com/video/${content.animation_2}?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1&background=1`}
-              css={css`
-                width: 100%;
-                height: 100%;
-                position: relative;
-              `}
-            ></Iframe> */}
           </div>
         </div>
       </Container>
