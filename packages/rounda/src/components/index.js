@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Global, css, connect, Head } from "frontity";
 import Switch from "@frontity/components/switch";
 import Header from "./header";
@@ -8,6 +8,7 @@ import About from "./about";
 import Services from "./services";
 import SingleWork from "./singleWork";
 import Loading from "./preloader";
+import Cursor from "./cursor";
 import { useTransition, animated } from "react-spring";
 
 import gangsterRegular from "../fonts/gangstergrotesk-regular.ttf";
@@ -50,7 +51,7 @@ const Theme = ({ state, actions }) => {
       </Head>
 
       <Global styles={globalStyles} />
-
+      <Cursor />
       <Header />
       {pageTransitions.map(({ props, key }) => (
         <animated.div style={props} key={key}>
@@ -89,9 +90,5 @@ const globalStyles = css`
 
   p::selection {
     background-color: #f7f7a8;
-  }
-
-  iframe {
-    border: none;
   }
 `;

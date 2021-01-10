@@ -21,6 +21,7 @@
     "@frontity/html2react": "^1.5.0",
     "@frontity/tiny-router": "^1.2.4",
     "@frontity/wp-source": "^1.10.0",
+    "classnames": "^2.2.6",
     "frontity": "^1.13.0",
     "gsap": "^3.5.1",
     "keygenerator": "^1.0.4",
