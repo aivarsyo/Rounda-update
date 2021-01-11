@@ -8,7 +8,6 @@ import About from "./about";
 import Services from "./services";
 import SingleWork from "./singleWork";
 import Loading from "./preloader";
-import Cursor from "./cursor";
 import { useTransition, animated } from "react-spring";
 
 import gangsterRegular from "../fonts/gangstergrotesk-regular.ttf";
@@ -51,7 +50,6 @@ const Theme = ({ state, actions }) => {
       </Head>
 
       <Global styles={globalStyles} />
-      <Cursor />
       <Header />
       {pageTransitions.map(({ props, key }) => (
         <animated.div style={props} key={key}>

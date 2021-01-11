@@ -4,10 +4,12 @@ import Black from "./black";
 import FirstLayer from "./FirstLayer";
 import Blue from "./blue";
 import Footer from "./footer";
+import Cursor from "./cursor";
 
 const Home = ({ state }) => {
   return (
     <>
+    <Cursor />
       <Container className="main">
         <FirstLayer />
         <Black />

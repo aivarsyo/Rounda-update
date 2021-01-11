@@ -77,10 +77,10 @@ const Footer = ({ state, actions }) => {
         <img src={logo} />
         <div>
           <p>say hi! to us on</p>
-          <a href="mailto:mail@rounda.com">mail@rounda.com</a>
-          <a href="https://www.instagram.com/studio.rounda/">instagram</a>
-          <a href="https://www.facebook.com/studio.rounda">facebook</a>
-          <a href="https://www.linkedin.com/company/rounda">linkedIn</a>
+          <p><a href="mailto:mail@rounda.com">mail@rounda.com</a></p>
+          <p><a href="https://www.instagram.com/studio.rounda/">instagram</a></p>
+          <p><a href="https://www.facebook.com/studio.rounda">facebook</a></p>
+          <p><a href="https://www.linkedin.com/company/rounda">linkedIn</a></p>
         </div>
       </Container>
     </>
@@ -114,6 +114,14 @@ const Container = styled.footer`
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+
+    p{
+      margin:0;
+    }
+
+    p:nth-child(1){
+      margin: revert;
+    }
 
     a {
       position: static;

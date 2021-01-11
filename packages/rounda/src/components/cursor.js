@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
 import { Global, connect, css } from "frontity";
 
+import cursorStyle from "../css/cursor.css";
+
 var classNames = require('classnames');
 
 const Cursor = () => {
@@ -16,11 +18,13 @@ const Cursor = () => {
         const [position, setPosition] = useState({ x: 0, y: 0 });
         const [clicked, setClicked] = useState(false);
         const [linkHovered, setLinkHovered] = useState(false);
+        const [textHovered, setTextHovered] = useState(false);
         const [hidden, setHidden] = useState(false);
     
         useEffect(() => {
             addEventListeners();
             handleLinkHoverEvents();
+            handleTextHoverEvents();
             return () => removeEventListeners();
         }, []);
     
@@ -61,16 +65,24 @@ const Cursor = () => {
         };
     
         const handleLinkHoverEvents = () => {
-            document.querySelectorAll("a").forEach((el) => {
+            document.querySelectorAll("a,img").forEach((el) => {
                 el.addEventListener("mouseover", () => setLinkHovered(true));
                 el.addEventListener("mouseout", () => setLinkHovered(false));
+            });
+        };
+
+        const handleTextHoverEvents = () => {
+            document.querySelectorAll("p").forEach((el) => {
+                el.addEventListener("mouseover", () => setTextHovered(true));
+                el.addEventListener("mouseout", () => setTextHovered(false));
             });
         };
     
         const cursorClasses = classNames("cursor", {
             "cursor--clicked": clicked,
             "cursor--hidden": hidden,
-            "cursor--link-hovered": linkHovered
+            "cursor--link-hovered": linkHovered,
+            "cursor--text-hovered": textHovered
         });
     
         return (
@@ -84,7 +96,7 @@ const Cursor = () => {
 
   return (
     <>
-    <Global styles={globalStyles} />
+    <Global styles={css(globalStyles, cursorStyle)}></Global>
       <Cursor/>
     </>
   );
@@ -98,31 +110,7 @@ html, body{
     cursor: none;
   }
 
-  .cursor {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #fefefe;
-    border-radius: 100%;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: all 150ms ease;
-    transition-property: background-color, opacity, transform, mix-blend-mode;
-    z-index: 9999;
-    mix-blend-mode: difference;
-}
-
-  .cursor--hidden {
-    opacity: 0;
-}
-
-.cursor--link-hovered {
-    transform: translate(-50%, -50%) scale(1.25);
-    background-color: #fefefe;
-}
-
-.cursor--clicked {
-    transform: translate(-50%, -50%) scale(0.9);
-    background-color: #fefefe;
-}
+  html *, body *{
+    cursor: none;
+  }
 `

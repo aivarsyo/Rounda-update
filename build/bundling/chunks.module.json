@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "8f7e461a83009d25bb33",
+  "hash": "bdccdf297c1910c1f14c",
   "publicPath": "/static/",
   "outputPath": "/Users/Aivars1/Desktop/Local Sites/Rounda-node/build/static",
   "assetsByChunkName": {
@@ -43,7 +43,7 @@
     },
     {
       "name": "images/cursor.png",
-      "size": 1347,
+      "size": 1853,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -91,7 +91,7 @@
     },
     {
       "name": "rounda.module.js",
-      "size": 12005340,
+      "size": 12019630,
       "chunks": [
         "rounda"
       ],

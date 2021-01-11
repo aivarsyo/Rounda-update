@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import Footer from "./footer";
+import Cursor from "./cursor";
 
 const Services = ({ state }) => {
   //console.log(state);
@@ -131,6 +132,7 @@ const Services = ({ state }) => {
 
   return (
     <>
+    <Cursor />
       <Container className="main">
         <div
           css={css`

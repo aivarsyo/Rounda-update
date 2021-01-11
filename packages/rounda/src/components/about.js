@@ -7,6 +7,7 @@ import AboutTop from "./AboutTop";
 import AboutBlack from "./AboutBlack";
 import AboutPeople from "./AboutPeople";
 import Footer from "./footer";
+import Cursor from "./cursor";
 
 const About = ({ state }) => {
   //console.log(state);
@@ -19,6 +20,7 @@ const About = ({ state }) => {
 
   return (
     <>
+    <Cursor />
       <Container className="main">
         <AboutTop />
         <AboutBlack />

@@ -3,6 +3,7 @@ import { connect, styled, css } from "frontity";
 import Footer from "./footer";
 import Link from "./link";
 import cursor from "../images/cursor.png";
+import Cursor from "./cursor";
 
 const Works = ({ state, actions }) => {
   //console.log(state);
@@ -15,6 +16,7 @@ const Works = ({ state, actions }) => {
 
   return (
     <>
+    <Cursor />
       <Container className="main">
         <p
           css={css`

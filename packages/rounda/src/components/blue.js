@@ -108,9 +108,7 @@ const Container = styled.div`
     max-width: 650px;
 
     img {
-      cursor: url(${cursor}) 62 21, auto;
-      transition: all 2s;
-      will-change: transform;
+      cursor: url(${cursor}), auto;
     }
   }
 

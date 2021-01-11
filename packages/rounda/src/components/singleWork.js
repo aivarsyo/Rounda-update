@@ -5,6 +5,7 @@ import gsap from "gsap";
 import AnimationSection from "./animationSection";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
+import Cursor from "./cursor";
 
 const SingleWork = ({ state, actions }) => {
   //console.log(state);
@@ -17,6 +18,7 @@ const SingleWork = ({ state, actions }) => {
 
   return (
     <>
+    <Cursor />
       <Container className="main">
         <div
           className="firstSection"

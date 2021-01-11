@@ -67,7 +67,7 @@ const Header = ({ state }) => {
           position: fixed;
           top: 34px;
           right: 25px;
-          cursor: pointer;
+          /* cursor: pointer; */
           z-index: 2;
         `}
         onClick={showMenu}
@@ -101,9 +101,9 @@ const Header = ({ state }) => {
             padding-right: 10vw;
           `}
         >
-          <Link href="/works">Works</Link>
-          <Link href="/about">About us</Link>
-          <Link href="/services">Services</Link>
+          <p><Link href="/works">Works</Link></p>
+          <p><Link href="/about">About us</Link></p>
+          <p><Link href="/services">Services</Link></p>
         </div>
 
         <div
@@ -114,12 +114,12 @@ const Header = ({ state }) => {
         >
           <div>
             <p>Tell us hi!</p>
-            <a href="mailto:mail@rounda.com">mail@rounda.com</a>
+            <p><a href="mailto:mail@rounda.com">mail@rounda.com</a></p>
           </div>
 
           <div>
             <p>Or just call us..</p>
-            <a href="tel:68944503">68 94 45 03</a>
+            <p><a href="tel:68944503">68 94 45 03</a></p>
           </div>
         </div>
 
@@ -130,7 +130,7 @@ const Header = ({ state }) => {
             top: 30px;
             right: 30px;
             width: 25px;
-            cursor: pointer;
+            /* cursor: pointer; */
           `}
           onClick={hideMenu}
         />
