@@ -72,7 +72,7 @@ const About = ({ state }) => {
               }
             `}
           >
-            <video autoPlay loop muted css={css`
+            <video autoPlay loop muted playsInline css={css`
                 width: 100%;
                 height: 100%;
                 position: relative;
@@ -122,7 +122,7 @@ const About = ({ state }) => {
               }
             `}
           >
-            <video autoPlay loop muted css={css`
+            <video autoPlay loop muted playsInline css={css`
                 width: 100%;
                 height: 100%;
                 position: relative;

@@ -53,7 +53,7 @@ const About = ({ state }) => {
               max-height: 585px;
             `}
           >
-            <video autoPlay loop muted css={css`
+            <video autoPlay loop muted playsInline css={css`
                 width: 100%;
                 height: 100%;
                 position: relative;
