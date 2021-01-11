@@ -43,7 +43,7 @@ const FirstLayer = ({ state }) => {
             overflow: hidden;
           `}
         >
-          <video autoPlay loop muted css={css`
+          <video autoPlay loop muted playsInline css={css`
                 width: 100vw;
                 height: 56.25vw;
                 min-height: 100vh;
