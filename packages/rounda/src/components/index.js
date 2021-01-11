@@ -51,8 +51,8 @@ const Theme = ({ state, actions }) => {
 
       <Global styles={globalStyles} />
       <Header />
-      {pageTransitions.map(({ props, key }) => (
-        <animated.div style={props} key={key}>
+      {/* {pageTransitions.map(({ props, key }) => (
+        <animated.div style={props} key={key}> */}
       <Switch>
         <Home when={data.isHome} />
         {/* <Empty when={data.id == 35} /> */}
@@ -62,8 +62,8 @@ const Theme = ({ state, actions }) => {
         <SingleWork when={data.isPost && data.isReady} />
         <Loading when={data.isFetching} />
       </Switch>
-      </animated.div>
-      ))}
+      {/* </animated.div>
+      ))} */}
     </>
   );
 };
