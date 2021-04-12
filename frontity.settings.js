@@ -2,7 +2,7 @@ const settings = {
   name: "rounda",
   state: {
     frontity: {
-      url: "https://aivars.dk/admin.rounda/",
+      url: "https://admin.rounda.dk/",
       title: "Rounda",
       description: "Digital Agency",
     },
@@ -28,7 +28,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://aivars.dk/admin.rounda/wp-json/",
+          api: "https://admin.rounda.dk/wp-json/",
           homepage: "home",
         },
       },

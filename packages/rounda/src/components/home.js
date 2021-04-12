@@ -27,6 +27,7 @@ const Container = styled.main`
   flex-direction: column;
 
   img:hover {
+    filter: brightness(0) saturate(100%);
     filter: invert(20%) sepia(75%) saturate(6766%) hue-rotate(252deg)
       brightness(89%) contrast(86%);
   }

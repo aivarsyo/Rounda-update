@@ -66,6 +66,7 @@ const Footer = ({ state, actions }) => {
             margin: 0;
             font-family: "gangsterRegular";
             font-size: 50px;
+            text-align:justify;
 
             @media only screen and (max-width: 425px) {
               font-size: 12vw;
