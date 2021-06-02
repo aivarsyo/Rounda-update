@@ -36,7 +36,7 @@ const Footer = ({ state, actions }) => {
   };
 
   useEffect(() => {
-    pinTheSection();
+    //pinTheSection();
 
     setTimeout(function () {
       let triggers = ScrollTrigger.getAll();

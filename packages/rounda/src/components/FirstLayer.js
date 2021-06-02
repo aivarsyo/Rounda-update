@@ -25,7 +25,7 @@ const FirstLayer = ({ state }) => {
   };
 
   useEffect(() => {
-    pinTheSection();
+    //pinTheSection();
   }, []);
 
   return (

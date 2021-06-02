@@ -50,7 +50,7 @@ const Black = ({ state }) => {
   }
 
   useEffect(() => {
-    pinTheSection();
+    //pinTheSection();
     //scrollThePinnedContent();
     //changeBckColor();
   }, []);

@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "9fd38a65cc1b23d3342a",
+  "hash": "1c58768c1a9e1a67b3ec",
   "publicPath": "/static/",
   "outputPath": "/Users/Aivars1/Desktop/Local Sites/Rounda-node/build/static",
   "assetsByChunkName": {
     "rounda": [
       "rounda.module.js",
-      "rounda.3b820cff678d9f1a0c28.hot-update.js"
+      "rounda.43007235f642a0c11117.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "3b820cff678d9f1a0c28.hot-update.json",
+      "name": "43007235f642a0c11117.hot-update.json",
       "size": 48,
       "chunks": [],
       "chunkNames": [],
@@ -29,7 +29,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "fonts/gangstergrotesk-regular.ttf",
@@ -37,7 +37,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/apple-touch-icon.png",
@@ -45,7 +45,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/closeIcon.png",
@@ -53,7 +53,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/cursor.png",
@@ -61,7 +61,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/favicon-16x16.png",
@@ -69,7 +69,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/favicon-32x32.png",
@@ -77,7 +77,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/logo.png",
@@ -85,7 +85,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/menuIcon.png",
@@ -93,7 +93,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/safari-pinned-tab.svg",
@@ -101,11 +101,11 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
-      "name": "rounda.3b820cff678d9f1a0c28.hot-update.js",
-      "size": 19797,
+      "name": "rounda.43007235f642a0c11117.hot-update.js",
+      "size": 37714,
       "chunks": [
         "rounda"
       ],
@@ -120,7 +120,7 @@
     },
     {
       "name": "rounda.module.js",
-      "size": 12140145,
+      "size": 12140165,
       "chunks": [
         "rounda"
       ],
@@ -139,7 +139,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.3b820cff678d9f1a0c28.hot-update.js"
+        "rounda.43007235f642a0c11117.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -152,7 +152,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.3b820cff678d9f1a0c28.hot-update.js"
+        "rounda.43007235f642a0c11117.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
