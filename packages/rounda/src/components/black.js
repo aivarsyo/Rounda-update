@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { connect, styled } from "frontity";
-import gsap from "gsap";
+import gsap, {Power1} from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import cursor from "../images/cursor.png";
@@ -19,7 +19,7 @@ const Black = ({ state }) => {
   const pinTheSection = () => {
     ScrollTrigger.create({
       trigger: [blackSection.current],
-      start: "bottom bottom",
+      start: "bottom bottom-=100px",
       pin: true,
       pinSpacing: false,
     });
@@ -27,19 +27,32 @@ const Black = ({ state }) => {
 
   const scrollThePinnedContent = () => {
     gsap.to([blackSection.current.children], {
-      yPercent: -50,
-      ease: "none",
+      y: "-50%",
+      ease: Power1,
       scrollTrigger: {
         trigger: [blackSection.current],
-        start: "bottom bottom",
+        start: "bottom bottom-=100px",
+        end: "bottom top",
         scrub: true,
       },
     });
   };
 
+  const changeBckColor = () => {
+    gsap.to([blackSection.current], {
+      backgroundColor: "#e7e9f2",
+      scrollTrigger:{
+        trigger: [blackSection.current],
+        start: "bottom bottom-=100px",
+        end: "bottom top"
+      }
+    })
+  }
+
   useEffect(() => {
     pinTheSection();
-    scrollThePinnedContent();
+    //scrollThePinnedContent();
+    //changeBckColor();
   }, []);
 
   return (

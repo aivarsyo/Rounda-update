@@ -1,0 +1,169 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "9fd38a65cc1b23d3342a",
+  "publicPath": "/static/",
+  "outputPath": "/Users/Aivars1/Desktop/Local Sites/Rounda-node/build/static",
+  "assetsByChunkName": {
+    "rounda": [
+      "rounda.module.js",
+      "rounda.3b820cff678d9f1a0c28.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "3b820cff678d9f1a0c28.hot-update.json",
+      "size": 48,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/gangstergrotesk-light.ttf",
+      "size": 56340,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "fonts/gangstergrotesk-regular.ttf",
+      "size": 55892,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/apple-touch-icon.png",
+      "size": 3161,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/closeIcon.png",
+      "size": 1296,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/cursor.png",
+      "size": 1853,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/favicon-16x16.png",
+      "size": 839,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/favicon-32x32.png",
+      "size": 1298,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/logo.png",
+      "size": 28172,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/menuIcon.png",
+      "size": 281,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "images/safari-pinned-tab.svg",
+      "size": 4154,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "rounda.3b820cff678d9f1a0c28.hot-update.js",
+      "size": 19797,
+      "chunks": [
+        "rounda"
+      ],
+      "chunkNames": [
+        "rounda"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "rounda.module.js",
+      "size": 12140145,
+      "chunks": [
+        "rounda"
+      ],
+      "chunkNames": [
+        "rounda"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "rounda": {
+      "chunks": [
+        "rounda"
+      ],
+      "assets": [
+        "rounda.module.js",
+        "rounda.3b820cff678d9f1a0c28.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "rounda": {
+      "chunks": [
+        "rounda"
+      ],
+      "assets": [
+        "rounda.module.js",
+        "rounda.3b820cff678d9f1a0c28.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

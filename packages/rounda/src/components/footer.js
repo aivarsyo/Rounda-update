@@ -46,6 +46,15 @@ const Footer = ({ state, actions }) => {
       });
     }, 1000);
 
+    window.addEventListener("resize", function(){
+      let triggers = ScrollTrigger.getAll();
+  
+        triggers.forEach((trigger) => {
+          trigger.refresh();
+        });
+        console.log("resize");
+      }, 1000);
+
     return () => {
       let triggers = ScrollTrigger.getAll();
       triggers.forEach((trigger) => {
@@ -53,6 +62,7 @@ const Footer = ({ state, actions }) => {
       });
     };
   }, [data]);
+
 
   return (
     <>

@@ -5,7 +5,7 @@ import Header from "./header";
 import Home from "./home";
 import Works from "./works";
 import About from "./about";
-import Services from "./services";
+import Services from "./servicess";
 import SingleWork from "./singleWork";
 import Loading from "./preloader";
 import { useTransition, animated } from "react-spring";

@@ -44,14 +44,17 @@ const FirstLayer = ({ state }) => {
           `}
         >
           <video autoPlay loop muted playsInline css={css`
-                width: 100vw;
+                /* width: 100vw;
                 height: 56.25vw;
                 min-height: 100vh;
                 min-width: 177.77vh; 
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); */
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
               `}>
   <source src={content.introduction_video} type="video/mp4"/>
 </video>

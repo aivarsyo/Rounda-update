@@ -106,11 +106,11 @@ export default connect(Cursor);
 
 const globalStyles=css`
 
-html, body{
+/* html, body{
     cursor: none;
   }
 
   html *, body *{
     cursor: none;
-  }
+  } */
 `

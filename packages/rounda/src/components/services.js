@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 import Footer from "./footer";
 import Cursor from "./cursor";
 
-const Services = ({ state }) => {
+const Servicess = ({ state }) => {
   //console.log(state);
   const data = state.source.get(state.router.link);
   //console.log(data);
@@ -271,7 +271,7 @@ const Services = ({ state }) => {
   );
 };
 
-export default connect(Services);
+export default connect(Servicess);
 
 const Container = styled.main`
   background-color: #e7e9f2;
