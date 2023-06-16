@@ -58,7 +58,7 @@ const Theme = ({ state, actions }) => {
         {/* <Empty when={data.id == 35} /> */}
         <Works when={data.id == 35 && data.isReady} />
         <About when={data.id == 53 && data.isReady} />
-        <Services when={data.id == 75 && data.isReady} />
+        <Services when={data.id == 84 && data.isReady} />
         <SingleWork when={data.isPost && data.isReady} />
         <Loading when={data.isFetching} />
       </Switch>

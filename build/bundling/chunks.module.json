@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "afa2feb31aafb544d2df",
-  "publicPath": "/static/",
-  "outputPath": "/Users/Aivars1/Desktop/Local Sites/Rounda-node/build/static",
+  "hash": "751984c6306f4d2d262e",
+  "publicPath": "",
+  "outputPath": "/Users/Aivars1/Desktop/Local-Sites/Rounda-update/build/static",
   "assetsByChunkName": {
     "rounda": [
       "rounda.module.js",
-      "rounda.9a7949e9b5aac390051c.hot-update.js"
+      "rounda.157525ebe4a96f507c5c.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "9a7949e9b5aac390051c.hot-update.json",
+      "name": "157525ebe4a96f507c5c.hot-update.json",
       "size": 48,
       "chunks": [],
       "chunkNames": [],
@@ -28,84 +28,104 @@
       "size": 56340,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/fonts/gangstergrotesk-light.ttf"
+      },
+      "emitted": false
     },
     {
       "name": "fonts/gangstergrotesk-regular.ttf",
       "size": 55892,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/fonts/gangstergrotesk-regular.ttf"
+      },
+      "emitted": false
     },
     {
       "name": "images/apple-touch-icon.png",
       "size": 3161,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/favicon/apple-touch-icon.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/closeIcon.png",
       "size": 1296,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/closeIcon.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/cursor.png",
       "size": 1853,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/cursor.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/favicon-16x16.png",
       "size": 839,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/favicon/favicon-16x16.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/favicon-32x32.png",
       "size": 1298,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/favicon/favicon-32x32.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/logo.png",
       "size": 28172,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/logo.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/menuIcon.png",
       "size": 281,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/menuIcon.png"
+      },
+      "emitted": false
     },
     {
       "name": "images/safari-pinned-tab.svg",
       "size": 4154,
       "chunks": [],
       "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "info": {
+        "sourceFilename": "packages/rounda/src/images/favicon/safari-pinned-tab.svg"
+      },
+      "emitted": false
     },
     {
-      "name": "rounda.9a7949e9b5aac390051c.hot-update.js",
-      "size": 91343,
+      "name": "rounda.157525ebe4a96f507c5c.hot-update.js",
+      "size": 252409,
       "chunks": [
         "rounda"
       ],
@@ -120,7 +140,7 @@
     },
     {
       "name": "rounda.module.js",
-      "size": 12019881,
+      "size": 10807575,
       "chunks": [
         "rounda"
       ],
@@ -139,7 +159,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.9a7949e9b5aac390051c.hot-update.js"
+        "rounda.157525ebe4a96f507c5c.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -152,7 +172,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.9a7949e9b5aac390051c.hot-update.js"
+        "rounda.157525ebe4a96f507c5c.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
