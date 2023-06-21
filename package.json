@@ -31,5 +31,8 @@
     "react-gsap": "^3.2.1",
     "react-spring": "^8.0.27",
     "rounda": "./packages/rounda"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
   }
 }
