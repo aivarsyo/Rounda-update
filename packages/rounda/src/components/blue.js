@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { connect, styled } from "frontity";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,25 +14,9 @@ const Blue = ({ state }) => {
   const content = page.acf;
   //console.log(content);
 
-  const blueSection = useRef(null);
-
-  const pinTheSection = () => {
-    ScrollTrigger.create({
-      trigger: [blueSection.current],
-      start: "top top",
-      end: "top +=100%",
-      pin: true,
-      pinSpacing: false,
-    });
-  };
-
-  useEffect(() => {
-    pinTheSection();
-  }, []);
-
   return (
     <>
-      <Container ref={blueSection}>
+      <Container>
         <div>
           <a href="https://agne-portfolio.vercel.app/" target="_blank">
             <img src={content.image_2} />
@@ -75,6 +59,7 @@ const Container = styled.div`
   background-color: #e7e9f2;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   a {
     position: static;

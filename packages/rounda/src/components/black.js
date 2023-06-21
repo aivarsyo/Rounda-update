@@ -40,6 +40,16 @@ const Black = ({ state }) => {
   useEffect(() => {
     pinTheSection();
     scrollThePinnedContent();
+
+    // Refresh ScrollTrigger when component mounts
+    setTimeout(() => {
+      console.log("Inside timeout, after 0.5 seconds");
+      ScrollTrigger.refresh(true);
+    }, 500);
+
+    return () => {
+      ScrollTrigger.killAll( ) ;
+    };
   }, []);
 
   return (
@@ -70,9 +80,10 @@ img {
   background-color: black;
   color: white;
   padding-bottom: 100px;
+  position: relative;
 
   div:nth-of-type(1) {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

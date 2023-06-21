@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-const FirstLayer = ({ state }) => {
+const FirstLayer = ({state}) => {
   //console.log(state);
   const data = state.source.get(state.router.link);
   //console.log(data);
@@ -18,7 +18,7 @@ const FirstLayer = ({ state }) => {
   const pinTheSection = () => {
     ScrollTrigger.create({
       trigger: [videoSection.current],
-      start: "top top",
+      start: "bottom bottom",
       pin: true,
       pinSpacing: false,
     });
@@ -26,6 +26,13 @@ const FirstLayer = ({ state }) => {
 
   useEffect(() => {
     pinTheSection();
+
+    // Refresh ScrollTrigger when component mounts
+    ScrollTrigger.refresh(true);
+
+    return () => {
+      ScrollTrigger.killAll( ) ;
+    };
   }, []);
 
   return (

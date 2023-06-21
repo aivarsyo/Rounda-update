@@ -55,6 +55,7 @@ const Theme = ({ state, actions }) => {
         <animated.div style={props} key={key}> */}
       <Switch>
         <Home when={data.isHome} />
+        {/* <Home2 when={data.isHome} /> */}
         {/* <Empty when={data.id == 35} /> */}
         <Works when={data.id == 35 && data.isReady} />
         <About when={data.id == 53 && data.isReady} />
