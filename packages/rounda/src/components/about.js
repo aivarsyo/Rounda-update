@@ -26,7 +26,7 @@ const About = ({ state }) => {
         <AboutBlack />
         <AboutPeople />
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

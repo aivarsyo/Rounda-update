@@ -2,7 +2,7 @@ const settings = {
   name: "rounda",
   state: {
     frontity: {
-      url: "http://localhost:1212/rounda/",
+      url: "http://172.105.86.7:8000/",
       title: "Rounda",
       description: "Digital Agency",
     },
@@ -28,7 +28,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "http://localhost:1212/rounda/wp-json/",
+          api: "http://172.105.86.7:8000/wp-json/",
           homepage: "home",
         },
       },

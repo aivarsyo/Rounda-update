@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "53d4e413fcbe9dfa2b75",
+  "hash": "de546e2618fe227c5260",
   "publicPath": "",
   "outputPath": "/Users/Aivars1/Desktop/Local-Sites/Rounda-update/build/static",
   "assetsByChunkName": {
     "rounda": [
       "rounda.module.js",
-      "rounda.5e40ab7820570d9c2a91.hot-update.js"
+      "rounda.38e09b36fb7bbf1e1a24.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "5e40ab7820570d9c2a91.hot-update.json",
+      "name": "38e09b36fb7bbf1e1a24.hot-update.json",
       "size": 48,
       "chunks": [],
       "chunkNames": [],
@@ -31,7 +31,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/fonts/gangstergrotesk-light.ttf"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/gangstergrotesk-regular.ttf",
@@ -41,7 +41,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/fonts/gangstergrotesk-regular.ttf"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/apple-touch-icon.png",
@@ -51,7 +51,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/favicon/apple-touch-icon.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/closeIcon.png",
@@ -61,7 +61,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/closeIcon.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/cursor.png",
@@ -71,7 +71,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/cursor.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/favicon-16x16.png",
@@ -81,7 +81,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/favicon/favicon-16x16.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/favicon-32x32.png",
@@ -91,7 +91,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/favicon/favicon-32x32.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/logo.png",
@@ -101,7 +101,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/logo.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/menuIcon.png",
@@ -111,7 +111,7 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/menuIcon.png"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/safari-pinned-tab.svg",
@@ -121,11 +121,11 @@
       "info": {
         "sourceFilename": "packages/rounda/src/images/favicon/safari-pinned-tab.svg"
       },
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "rounda.5e40ab7820570d9c2a91.hot-update.js",
-      "size": 18783,
+      "name": "rounda.38e09b36fb7bbf1e1a24.hot-update.js",
+      "size": 9837,
       "chunks": [
         "rounda"
       ],
@@ -140,7 +140,7 @@
     },
     {
       "name": "rounda.module.js",
-      "size": 11298413,
+      "size": 11298580,
       "chunks": [
         "rounda"
       ],
@@ -159,7 +159,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.5e40ab7820570d9c2a91.hot-update.js"
+        "rounda.38e09b36fb7bbf1e1a24.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +172,7 @@
       ],
       "assets": [
         "rounda.module.js",
-        "rounda.5e40ab7820570d9c2a91.hot-update.js"
+        "rounda.38e09b36fb7bbf1e1a24.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
